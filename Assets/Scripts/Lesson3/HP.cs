@@ -32,7 +32,7 @@ public class HP : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             Debug.Log("Игрок умер, сцена перезапущена");
         }
     }

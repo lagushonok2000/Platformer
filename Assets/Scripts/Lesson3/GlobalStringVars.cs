@@ -7,4 +7,5 @@ public static class GlobalStringVars
     public static int LAYERPLAYER = 6;
     public static int LAYERBULLET = 9;
     public static int LAYERCOINS = 3;
+    public static int LAYERCHEST = 11;
 }
